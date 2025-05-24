@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zewon Exchange</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/ltnai.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Zewon Exchange</h2>
+          <p class="subheading">Exchange your crypto with us</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 250k</h4>
+          <p class="item">Bitcoin</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 250k</h4>
+          <p class="item">Ethereum</p>
+        </div>
+      </header>
+
+      <!-- Navigation Menu -->
+      <nav class="menu">
+        <div class="tombol">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Zewon Wallet</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="https://www.youtube.com/" target="_blank">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- Services Section -->
+      <section class="services">
+        <div class="service">
+          <div class="icon">💻</div>
+          <h3>Tutorial</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet cum praesentium impedit nihil corrupti.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎞️</div>
+          <h3>Online Class</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet cum praesentium impedit nihil corrupti.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎙️</div>
+          <h3>Podcast</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet cum praesentium impedit nihil corrupti.</p>
+        </div>
+        <div class="service">
+          <div class="icon">👕</div>
+          <h3>Merchandise</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet cum praesentium impedit nihil corrupti.</p>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="https://picsum.photos/201/201" alt="Gallery Image 1" />
+          <img src="https://picsum.photos/202/202" alt="Gallery Image 2" />
+          <img src="https://picsum.photos/203/203" alt="Gallery Image 3" />
+          <img src="https://picsum.photos/204/204" alt="Gallery Image 4" />
+          <img src="https://picsum.photos/205/205" alt="Gallery Image 5" />
+          <img src="https://picsum.photos/206/206" alt="Gallery Image 6" />
+          <img src="https://picsum.photos/207/207" alt="Gallery Image 7" />
+          <img src="https://picsum.photos/208/208" alt="Gallery Image 8" />
+          <img src="https://picsum.photos/209/209" alt="Gallery Image 9" />
+          <img src="https://picsum.photos/210/210" alt="Gallery Image 10" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const tombol = document.querySelector(".tombol");
+      const nav = document.querySelector(".menu-list");
+
+      tombol.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
